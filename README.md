@@ -15,10 +15,18 @@ Admin users can add, delete, and list users via an interactive menu.
 - **Persistent storage** – users saved in `users.txt` (format: `username:password`)
 - **No external dependencies** – uses only C++ standard library and POSIX `getpass`
 
-## Compilation and Run
+## Install
 
 ```bash
-g++ -std=c++11 main.cpp -o user-logger
+git clone https://github.com/ha1ron23/user-logger-cli.git
+cd user-logger-cli
+cd linux # or cd win or cd mac
+```
+
+## Compile and run
+
+```bash
+g++ -std=c++11 main.cpp -o user-logger 
 ./user-logger
 ```
 
