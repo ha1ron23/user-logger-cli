@@ -34,6 +34,7 @@ g++ -std=c++11 main.cpp -o user-logger
 After first run, a default admin account is created:
 
   Username: admin
+  
   Password: admin123
 
 Change the password by editing users.txt or via admin menu
