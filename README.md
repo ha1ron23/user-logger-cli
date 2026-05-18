@@ -43,12 +43,12 @@ Change the password by editing users.txt or via admin menu
 $ ./user-logger
 Username: ha1ron23
 Password: 
-[2025-05-19 14:32:11] logger: user ha1ron23 logged in 
+[2026-05-19 00:02:11] logger: user ha1ron23 logged in 
 
 $ ./user-logger
 Username: admin
 Password: 
-[2025-05-19 14:35:22] logger: user admin logged in 
+[2026-05-19 00:02:22] logger: user admin logged in 
 
 --- Admin Menu ---
 1. Add user
